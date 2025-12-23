@@ -20,6 +20,7 @@ SETUP: 1)serve un PC. 2)Poi lo username dell'utente, da cui parte la prima richi
 
 NB: CHIARAMENTE c'è bisogno di un IDE, magari Visual Code, e scaricare le librerie necessarie indicate negli import.
 
-Ovviamente basta runnare il programma, inserire username utente e COOKIE come spiegato sopra e poi l'algoritmo farà il resto. Alla fine del programma, comparirà un file .txt che potete salvare, in cui saranno visibili gli utenti che seguite ma che non vi seguono! (foto dimostrativa in basso)
+Ovviamente basta runnare il programma, inserire username utente e COOKIE come spiegato sopra e poi l'algoritmo farà il resto. Alla fine del programma, comparirà un file .txt che potete salvare, in cui saranno visibili gli utenti che seguite ma che non vi seguono! Il file lo troverete nella stessa cartella dello script 
+(foto dimostrativa in basso).
 
 
