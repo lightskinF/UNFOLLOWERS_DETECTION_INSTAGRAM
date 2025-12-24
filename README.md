@@ -11,21 +11,24 @@ La logica è stata questa: dato l'ID univoco dell'utente Instagram del quale vog
 Fondamentalmente, una volta individuati gli endpoint, verranno automatizzate richieste al server Instagram. Cosa importante, e qui ho sfruttato un template diciamo che già mi ero costruito per un altro progetto. Verosimilmente, alcuni server impongono un blocco al seguito di tante richieste consecutive nel giro di poco tempo da parte dello stesso utente. Per aggirare ciò ho simulato un comportamento umano, imponendo di inviare le richieste al server con un certa pausa di tot secondi di distanza una dall'altra. In più, queste richieste sono fatte sempre, in maniera random, da un diverso Browser e diverso sistema operativo. 
 
 
-SETUP: 1)serve un PC. 2)Poi lo username dell'utente, da cui parte la prima richiesta per ottenerne l'ID (ragionevolmente una Primary Key che funge da Foreign Key per i suoi follower e seguiti), che ci permette poi di mandare richieste per ottenere lista followers e seguiti dato l'ID dell'utemte di nostro interesse, per poi compararle in un secondo momento.
+SETUP: 1. Serve un PC. 2. Poi lo username dell'utente, da cui parte la prima richiesta per ottenerne l'ID (ragionevolmente una Primary Key che funge da Foreign Key per i suoi follower e seguiti), che ci permette poi di mandare richieste per ottenere lista followers e seguiti dato l'ID dell'utemte di nostro interesse, per poi compararle in un secondo momento.
 
-3)Infine il COOKIE della sessione (Session ID), VEDI IL VIDEO ALLEGATO SOPRA COME INDICAZIONE VISIVA PER OTTENERLO! Di seguito i rispettivi passaggi. Si ottiene da Chrome DevTools nel seguente modo:
--Dal Pc, accedere a instagram e andare sul profilo di nostro interesse, che vogliamo analizzare.
--Da Windows-> premere combinazione tasti: Ctrl+Maiusc+C. Da Mac->Cmd+Opzione+C
--Esce un riquadro, refreshare la pagina; dalle sezioni superiori di questo riquadro, cliccare "Network"
--Poi, tra le sezioni inferiori, sotto "Name", cliccare sul primo risultato, dovrebbe essere del tipo "usernameutente/"
--Una volta selezionato, sulla destra cliccare su "Headers"
--Scorrendo in basso, sulla sinistra, nella sezione "Request Headers", comparirà la voce "Cookie"
--Selezionare interamente la stringa e fare copia e incolla nel programma quando ce lo chiederà in input.
+3. Infine il **COOKIE della sessione (Session ID)**  
+   *(vedi il video sopra per riferimento visivo)*
+
+   - Dal PC, accedere a Instagram e aprire il profilo di interesse
+   - Premere `Ctrl + Shift + C` (Windows) oppure `Cmd + Option + C` (Mac)
+   - Si apre DevTools → ricaricare la pagina → sezione **Network**
+   - Sotto **Name**, cliccare il primo risultato (`usernameutente/`)
+   - Aprire **Headers**
+   - In **Request Headers**, copiare il valore **Cookie**
+   - Incollare la stringa nel programma quando richiesto in input
+
 
 NB: CHIARAMENTE c'è bisogno di un IDE, magari Visual Code, un interprete Python e le librerie necessarie indicate negli "import", scaricabili tramite il Package Manager.
 
 Ovviamente basta runnare il programma, inserire username utente desiderato e COOKIE come spiegato sopra e poi l'algoritmo farà il resto. Alla fine del programma, comparirà un file .txt che potete salvare, in cui saranno visibili gli utenti che seguite ma che non vi seguono! Il file lo troverete nella stessa cartella dello script.
-(foto dimostrativa in basso).
+(foto dimostrative in basso).
 
 ---
 
