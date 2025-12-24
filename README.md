@@ -34,9 +34,9 @@ Ovviamente basta runnare il programma, inserire username utente desiderato e COO
 
   <br>
 
-  <img src="immagini_dimostrative/output_1.png" width="900">
+  <img src="immagini_dimostrative/output_1.png" width="800">
   <br><br>
-  <img src="immagini_dimostrative/output_1.png" width="900">
+  <img src="immagini_dimostrative/output_2.png" width="800">
 
 </details>
 
