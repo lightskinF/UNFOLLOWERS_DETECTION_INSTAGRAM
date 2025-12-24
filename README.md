@@ -13,7 +13,7 @@ Fondamentalmente, una volta individuati gli endpoint, verranno automatizzate ric
 
 SETUP: 1)serve un PC. 2)Poi lo username dell'utente, da cui parte la prima richiesta per ottenerne l'ID (ragionevolmente una Primary Key che funge da Foreign Key per i suoi follower e seguiti), che ci permette poi di mandare richieste per ottenere lista followers e seguiti dato l'ID dell'utemte di nostro interesse, per poi compararle in un secondo momento.
 
-3)Infine il COOKIE della sessione (Session ID), VEDI IL VIDEO ALLEGATO PER OTTENERLO! Si ottiene da Chrome DevTools nel seguente modo.
+3)Infine il COOKIE della sessione (Session ID), VEDI IL VIDEO ALLEGATO SOPRA COME INDICAZIONE VISIVA PER OTTENERLO! Di seguito i rispettivi passaggi. Si ottiene da Chrome DevTools nel seguente modo:
 -Dal Pc, accedere a instagram e andare sul profilo di nostro interesse, che vogliamo analizzare.
 -Da Windows-> premere combinazione tasti: Ctrl+Maiusc+C. Da Mac->Cmd+Opzione+C
 -Esce un riquadro, refreshare la pagina; dalle sezioni superiori di questo riquadro, cliccare "Network"
@@ -22,9 +22,9 @@ SETUP: 1)serve un PC. 2)Poi lo username dell'utente, da cui parte la prima richi
 -Scorrendo in basso, sulla sinistra, nella sezione "Request Headers", comparirà la voce "Cookie"
 -Selezionare interamente la stringa e fare copia e incolla nel programma quando ce lo chiederà in input.
 
-NB: CHIARAMENTE c'è bisogno di un IDE, magari Visual Code, e scaricare le librerie necessarie indicate negli import.
+NB: CHIARAMENTE c'è bisogno di un IDE, magari Visual Code, un interprete Python e le librerie necessarie indicate negli "import", scaricabili tramite il Package Manager.
 
-Ovviamente basta runnare il programma, inserire username utente e COOKIE come spiegato sopra e poi l'algoritmo farà il resto. Alla fine del programma, comparirà un file .txt che potete salvare, in cui saranno visibili gli utenti che seguite ma che non vi seguono! Il file lo troverete nella stessa cartella dello script 
+Ovviamente basta runnare il programma, inserire username utente desiderato e COOKIE come spiegato sopra e poi l'algoritmo farà il resto. Alla fine del programma, comparirà un file .txt che potete salvare, in cui saranno visibili gli utenti che seguite ma che non vi seguono! Il file lo troverete nella stessa cartella dello script.
 (foto dimostrativa in basso).
 
 ---
