@@ -23,7 +23,7 @@ Una volta identificati gli endpoint necessari, il processo viene completamente a
 **Gestione delle limitazioni e simulazione del comportamento umano**
 
 Molti servizi impongono restrizioni o blocchi temporanei in presenza di un elevato numero di richieste consecutive provenienti dallo stesso client.
-Per ridurre il rischio di rate limiting o ban, come verosimilmente in questo caso, ho sfruttato un template che mi era già costruito per un progetto simile, implementando le seguenti strategie:
+Per ridurre il rischio di rate limiting o ban, come verosimilmente in questo caso, ho sfruttato un template che mi ero già costruito per un progetto simile, implementando le seguenti strategie:
 
   - introduzione di intervalli temporali (delay) tra una richiesta e la successiva;
   - invio delle richieste con User-Agent casuali, simulando browser e sistemi operativi differenti scelti in maniera random;
