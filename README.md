@@ -28,7 +28,7 @@ Per ridurre il rischio di rate limiting o ban, come verosimilmente in questo cas
   - introduzione di intervalli temporali (delay) tra una richiesta e la successiva;
   - invio delle richieste con User-Agent casuali, simulando browser e sistemi operativi differenti scelti in maniera random;
   - comportamento complessivo progettato per avvicinarsi il più possibile a quello di un utente umano reale.
-  - 
+    
 Queste tecniche permettono di rendere il processo più robusto e meno invasivo, migliorando l’affidabilità dello scraping senza compromettere la sicurezza dell’account, aggirando le limitazioni citate prima. 
 
 SETUP:
