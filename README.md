@@ -8,16 +8,6 @@ Tecniche di Web Scraping per ottenere la lista di persone che seguiamo che a lor
 Questo progetto nasce dall’esigenza di ottenere la lista degli account seguiti da un utente Instagram che non ricambiano il follow, evitando l’utilizzo di applicazioni di terze parti potenzialmente inaffidabili o invasive. È noto, infatti, che alcune di queste soluzioni richiedono credenziali sensibili o possono compromettere la sicurezza dell’account.
 Oltre all’aspetto legato alla sicurezza, il progetto rappresenta anche un esercizio pratico di web scraping e analisi delle richieste HTTP, ambiti di particolare interesse personale.
 
-<p align="center">
-  <img src="OTTIENI_COOKIE_SESSIONE/ShareX_yecz6vQv4Q.gif" width="1000">
-</p>
-
-# UNFOLLOWERS_DETECTION_INSTAGRAM
-Tecniche di Web Scraping per ottenere la lista di persone che seguiamo che a loro volta non ci seguono su Instagram.
-
-Questo progetto nasce dall’esigenza di ottenere la lista degli account seguiti da un utente Instagram che non ricambiano il follow, evitando l’utilizzo di applicazioni di terze parti potenzialmente inaffidabili o invasive. È noto, infatti, che alcune di queste soluzioni richiedono credenziali sensibili o possono compromettere la sicurezza dell’account.
-Oltre all’aspetto legato alla sicurezza, il progetto rappresenta anche un esercizio pratico di web scraping e analisi delle richieste HTTP, ambiti di particolare interesse personale.
-
 **Logica di funzionamento**
 Una volta ottenuto l’ID univoco di un account Instagram, il sistema interroga specifici endpoint per ottenere:
   -la lista dei followers;
