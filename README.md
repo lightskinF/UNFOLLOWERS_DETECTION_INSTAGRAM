@@ -33,7 +33,7 @@ Queste tecniche permettono di rendere il processo più robusto e meno invasivo, 
 
 SETUP:
 1. Serve un PC.
-2.  Poi lo username dell'utente, da cui parte la prima richiesta per ottenerne l'ID (ragionevolmente una Primary Key che funge da Foreign Key per i suoi follower e seguiti associati rispettivamente all'ID di riferimento dell'utente), che ci permette poi di mandare richieste per ottenere lista followers e seguiti dato l'ID dell'utemte di nostro interesse, per poi compararle in un secondo momento.
+2.  Poi lo username dell'utente, da cui parte la prima richiesta per ottenerne l'ID (ragionevolmente una Primary Key che funge da Foreign Key per i suoi follower e seguiti associati rispettivamente all'ID di riferimento dell'utente), che ci permette poi di mandare richieste per ottenere lista followers e seguiti dato l'ID dell'utente di nostro interesse, per poi compararle in un secondo momento.
 
 3. Infine il **COOKIE della sessione (Session ID)**  
    *(vedi il video sopra per riferimento visivo)*
@@ -64,39 +64,4 @@ Ovviamente basta runnare il programma, inserire username utente desiderato e COO
   <img src="immagini_dimostrative/output_2.png" width="800">
 
 </details>
-
-
-SETUP: 1. Serve un PC. 2. Poi lo username dell'utente, da cui parte la prima richiesta per ottenerne l'ID (ragionevolmente una Primary Key che funge da Foreign Key per i suoi follower e seguiti), che ci permette poi di mandare richieste per ottenere lista followers e seguiti dato l'ID dell'utemte di nostro interesse, per poi compararle in un secondo momento.
-
-3. Infine il **COOKIE della sessione (Session ID)**  
-   *(vedi il video sopra per riferimento visivo)*
-
-   - Dal PC, accedere a Instagram e aprire il profilo di interesse
-   - Premere `Ctrl + Shift + C` (Windows) oppure `Cmd + Option + C` (Mac)
-   - Si apre DevTools → ricaricare la pagina → sezione **Network**
-   - Sotto **Name**, cliccare il primo risultato (`usernameutente/`)
-   - Aprire **Headers**
-   - In **Request Headers**, copiare il valore **Cookie**
-   - Incollare la stringa nel programma quando richiesto in input
-
-
-**NB**: CHIARAMENTE c'è bisogno di un IDE, magari Visual Code, un interprete Python e le librerie necessarie indicate negli "import", scaricabili tramite il Package Manager.
-
-Ovviamente basta runnare il programma, inserire username utente desiderato e COOKIE come spiegato sopra e poi l'algoritmo farà il resto. Alla fine del programma, comparirà un file .txt che potete salvare, in cui saranno visibili gli utenti che seguite ma che non vi seguono! Il file lo troverete nella stessa cartella dello script.
-(foto dimostrative in basso).
-
----
-
-<details>
-  <summary>Clicca per vedere le immagini</summary>
-
-  <br>
-
-  <img src="immagini_dimostrative/output_1.png" width="800">
-  <br><br>
-  <img src="immagini_dimostrative/output_2.png" width="800">
-
-</details>
-
-
 
