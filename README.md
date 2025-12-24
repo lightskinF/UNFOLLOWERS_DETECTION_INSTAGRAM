@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="OTTIENI_COOKIE_SESSIONE/ShareX_yecz6vQv4Q.gif" width="700">
+  <img src="OTTIENI_COOKIE_SESSIONE/ShareX_yecz6vQv4Q.gif" width="1000">
 </p>
 
 # UNFOLLOWERS_DETECTION_INSTAGRAM
