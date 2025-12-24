@@ -27,4 +27,18 @@ NB: CHIARAMENTE c'è bisogno di un IDE, magari Visual Code, e scaricare le libre
 Ovviamente basta runnare il programma, inserire username utente e COOKIE come spiegato sopra e poi l'algoritmo farà il resto. Alla fine del programma, comparirà un file .txt che potete salvare, in cui saranno visibili gli utenti che seguite ma che non vi seguono! Il file lo troverete nella stessa cartella dello script 
 (foto dimostrativa in basso).
 
+---
+
+<details>
+  <summary>Clicca per vedere le immagini</summary>
+
+  <br>
+
+  <img src="immagini_dimostrative/output_1.png" width="900">
+  <br><br>
+  <img src="immagini_dimostrative/output_1.png" width="900">
+
+</details>
+
+
 
